@@ -9,7 +9,7 @@ interface AboutMeBoxpro {
         id: number;
         logo:ReactNode;
         title: string;
-        description: String;
+        description: string;
     };
 }
 
