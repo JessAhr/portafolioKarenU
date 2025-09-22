@@ -18,7 +18,7 @@ const AboutMePage = () => {
                 <div className="relative z-10 grid max-w-5xl gap-6 
                                 mx-auto mt-4 sm:grid-cols-2 md:grid-cols-2">
                     {boxAboutMe.map((data) => (
-                    <AboutMeBox key={data.id} data={data} />
+                    <AboutMeBox key={data.id} data ={data}/>
                     ))}
                 
                 </div>

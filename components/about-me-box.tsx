@@ -2,11 +2,12 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { ReactNode } from "react";
 
 interface AboutMeBoxpro {
     data: {
         id: number;
-        logo: String;
+        logo:ReactNode;
         title: string;
         description: String;
     };
