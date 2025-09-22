@@ -46,3 +46,9 @@ main{
 .nav-item:hover {
   background: #ab0bf5; 
 }
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  background-color: #ab0bf5;
+  }

@@ -20,7 +20,7 @@ const Header = () => {
                         <Link key={id}
                             href={src}
                             target="_blank"
-                            className="transition-all duration-300 hover:text-secondary"
+                            className="transition-all duration-300 hover:bg-pink-300 rounded-full"
                         >
                             {logo}
                         </Link>

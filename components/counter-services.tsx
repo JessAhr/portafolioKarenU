@@ -13,7 +13,7 @@ const CounterServices = () => {
             lineRightMobile}) => (
                 <div key={id} className= {`${lineRight && "ltr"}` }
                 >
-                  <div className={`${lineRightMobile && "px-4 border-2 border-transparent md:border-e-gray-100"}
+                  <div className={`${lineRightMobile && "px-4 border-2 border-transparent md:hover:bg-pink-300"}
                   ${lineRightMobile && "border-e-gray-100"}
                   `}>
                         <p className="flex mb-2 text-2xl font-extrabold md:text-4xl

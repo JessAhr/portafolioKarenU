@@ -3,6 +3,11 @@ import { Urbanist } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import Header from "@/components/header";
+import Swiper from "swiper";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+
 
 const urbanist = Urbanist({
   variable: "--font-geist-sans",

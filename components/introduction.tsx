@@ -30,15 +30,22 @@ const Introduction = () => {
                         className="font-bold text-secondary"
                     />
                     </h1>
-                    <p className="font-bold mx-auto mb-2 text-xl md:mx-0 md:mb-8 ">
+                    <h2 className="font-bold text-xl text-center mx-auto mb-2 md:mx-0 md:mb-8">
+                        Hola... soy Karen Ulcue </h2>
+                    <p className="font-semibold text-justify mx-auto mb-2  md:mx-0 md:mb-8 ">
                        Desarrolladora Full Stack Java, apasionada por crear soluciones tecnológicas innovadoras y eficientes.
+                       He trabajado con diversas tecnologías y frameworks, incluyendo 
+                       HTML|JavaScrip|Bostrap|PHP|MySQL| React| Next.js |Node.js|Java 
+                       Mi experiencia abarca desde el desarrollo frontend hasta la integración con backend, 
+                       siempre buscando crear soluciones eficientes y escalables. 
+                       Actualmente me especializo en el desarrollo de web modernas.
                     </p>
                     <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
-                        <Link href="/proyects" className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit 
+                        <Link href="/portfolio" className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit 
                         rounded-xl hover:shadow-xl hover:shadow-white/50">
                             Ver proyectos
                         </Link>
-                        <Link href="/contact" className="px-3 py-2 transition-all border-2 cursor-pointer text-secondary border-secondary w-fit 
+                        <Link href="https://api.whatsapp.com/send?phone=573126668300&text=Hola%20Karen%20vi%20tu%20portafolio,%20y%20me%20interesa%20hablar%20contigo..." className="px-3 py-2 transition-all border-2 cursor-pointer text-secondary border-secondary w-fit 
                         rounded-xl hover:shadow-xl hover:shadow-white/50">
                             contacta conmigo
                         </Link>

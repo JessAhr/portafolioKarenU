@@ -1,31 +1,42 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Instagram, Github, ChartNoAxesCombined } from "lucide-react";
+import { BiSolidUser } from "react-icons/bi";
+import { FaHackerrank, FaLightbulb } from "react-icons/fa";
+import { LuGithub, LuInstagram, LuLinkedin, LuTwitter } from "react-icons/lu";
+import { PiWhatsappLogoThin } from "react-icons/pi";
+
 
 export const socialNetworks = [
     {
         id: 1,
-        logo: <Youtube size={30} strokeWidth={1} />,
-        src: "#!",
+        logo: <LuGithub size={30} strokeWidth={1} />,
+        src: "#https://github.com/JessAhr",
     },
     {
         id: 2,
-        logo: <Linkedin size={30} strokeWidth={1} />,
-        src: "#!",
+        logo: <LuLinkedin size={30} strokeWidth={1} />,
+        src: "#https://www.linkedin.com/in/karen-ulcue-full-stack",
     },
     {
         id: 3,
-        logo: <Twitter size={30} strokeWidth={1} />,
-        src: "#!",
+        logo: <LuTwitter size={30} strokeWidth={1} />,
+        src: "#https://x.com/Kalular3Karen",
     },
     {
         id: 4,
-        logo: <Rss size={30} strokeWidth={1} />,
-        src: "#!",
+        logo: <LuInstagram size={30} strokeWidth={1} />,
+        src: "#https://www.instagram.com/karen_ahr1",
     },
     {
         id: 5,
-        logo: <Twitch size={30} strokeWidth={1} />,
-        src: "#!",
+        logo: < PiWhatsappLogoThin size={30} strokeWidth={1} />,
+        src: "#https://api.whatsapp.com/send?phone=573126668300&text=Hola%20Karen%20vi%20tu%20portafolio,%20y%20me%20interesa%20hablar%20contigo...",
     },
+    {
+        id: 6,
+        logo: < FaHackerrank size={30} strokeWidth={1} />,
+        src: "#https://www.hackerrank.com/profile/karenulcuelargo",
+    },
+    
 ];
 
 
@@ -54,70 +65,78 @@ export const itemsNavbar = [
         icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
         link: "/portfolio",
     },
-    {
-        id: 5,
-        title: "Home",
-        icon: <Speech size={25} color="#fff" strokeWidth={1} />,
-        link: "/testimonials",
-    },
+    
 ];
+export const boxAboutMe = [
+    {   id:1,
+        logo:<BiSolidUser size={50} color="#ab0bf5" strokeWidth={2}/> ,
+        title: "Soy Karen",
+        description: "Soy una desarrolldora Full stack de Java, apacionada por el desarrollo y el analisis de datos, el maketing digital, el prendimeinto y las soluciones creativas"
+    },
+    {   id:2,
+        logo:<FaLightbulb  size={50} color="#ab0bf5" strokeWidth={2}/> ,
+        title: "Mi pasion",
+        description: "Nacio del interes por conocer como se desarrollas las tecnologias que uso a diario, y fui consiente del gran impacto que tiene la tecnologia y desarrolo en la vida diaria"
+    },
+
+]
 
 export const dataAboutPage = [
     {
         id: 1,
         title: "Frontend Developer",
-        subtitle: "TechSolutions",
-        description: "Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
-        date: "Nov 2023 ",
+        subtitle: "E-commerce RutaMTB",
+        description: "Colabar con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
+        date: "sep 2025 ",
     },
     {
         id: 2,
         title: "Creador de Experiencias Digitales",
-        subtitle: "PixelCrafters",
-        description: "Trabaja en proyectos emocionantes que desafían los límites de la creatividad y la tecnología. Únete a nosotros mientras creamos experiencias digitales cautivadoras que inspiran y cautivan a nuestros usuarios.",
-        date: "May 2021",
+        subtitle: "Independiente",
+        description: "Como apasionada por el marketing ayudo a emprendedores a esablecer su marca en redes sociales.",
+        date: "sep 2025",
     },
     {
         id: 3,
         title: "Especialista en Desarrollo Frontend",
-        subtitle: "CodeForge Solutions",
+        subtitle: "Generation Colombia",
         description: "Como desarrollador frontend, tendrás la oportunidad de colaborar en proyectos diversos y desafiantes que te permitirán expandir tus habilidades y dejar tu huella en el mundo digital.",
-        date: "Ago 2019",
+        date: "Jul 2025",
     },
     {
         id: 4,
-        title: "Prácticas Grado",
-        subtitle: "WebWizards Inc.",
-        description: "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
-        date: "Mar 2018",
+        title: "Analista de Datos",
+        subtitle: "Comercializadora Central",
+        description: "Implemente estratejias de analisis de datos para realizar comprar de insumos con hasta un 30% mas eficiencia. ",
+        date: "Mar 2024",
     },
 ]
 
 export const dataCounter = [
     {
         id: 0,
-        endCounter: 10,
+        endCounter: 1,
         text: "Años de experiencia",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: 1,
-        endCounter: 80,
+        endCounter: 1,
         text: "Clientes satisfechos",
         lineRight: true,
         lineRightMobile: false,
     },
     {
         id: 2,
-        endCounter: 220,
+        endCounter: 19,
         text: "Proyectos finalizados",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: 3,
-        endCounter: 30,
+        endCounter: 1,
         text: "Premios ganadores",
         lineRight: false,
         lineRightMobile: false,
@@ -126,9 +145,9 @@ export const dataCounter = [
 
 export const serviceData = [
     {
-        icon: <Crop />,
-        title: "Branding",
-        description: "Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
+        icon: <Computer />,
+        title: "Desarrollo web",
+        description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades",
     },
     {
         icon: <Pencil />,
@@ -136,10 +155,11 @@ export const serviceData = [
         description: "Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario",
     },
     {
-        icon: <Computer />,
-        title: "Desarrollo web",
-        description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades",
+        icon: <Crop />,
+        title: "Branding",
+        description: "Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
     },
+
     {
         icon: <Book />,
         title: "Copywriting",
@@ -150,22 +170,28 @@ export const serviceData = [
         title: "SEO",
         description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
     },
+    {
+        icono: <ChartNoAxesCombined />,
+        title: "Análisis de datos",
+        description: "Transformo datos en insights accionables para apoyar la toma de decisiones estratégicas."
+    },
+
 ];
 
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Web Pro",
-        image: "/image-1.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "To-Do Boostrap",
+        image: "/to-do.jpg",
+        urlGithub: "https://github.com/JessAhr/To-Do-boostrap!",
+        urlDemo: "#https://to-do-boostrap.netlify.app/",
     },
     {
         id: 2,
-        title: "Desarrollo Web Ágil",
-        image: "/image-2.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "Poke API",
+        image: "/poke-Api.jpg",
+        urlGithub: "#https://github.com/JessAhr/lab-Poke-api",
+        urlDemo: "#https://poke-api-karen.netlify.app/",
     },
     {
         id: 3,
