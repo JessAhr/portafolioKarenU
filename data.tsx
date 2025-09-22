@@ -9,32 +9,32 @@ export const socialNetworks = [
     {
         id: 1,
         logo: <LuGithub size={30} strokeWidth={1} />,
-        src: "#https://github.com/JessAhr",
+        src: "https://github.com/JessAhr",
     },
     {
         id: 2,
         logo: <LuLinkedin size={30} strokeWidth={1} />,
-        src: "#https://www.linkedin.com/in/karen-ulcue-full-stack",
+        src: "https://www.linkedin.com/in/karen-ulcue-full-stack",
     },
     {
         id: 3,
         logo: <LuTwitter size={30} strokeWidth={1} />,
-        src: "#https://x.com/Kalular3Karen",
+        src: "https://x.com/Kalular3Karen",
     },
     {
         id: 4,
         logo: <LuInstagram size={30} strokeWidth={1} />,
-        src: "#https://www.instagram.com/karen_ahr1",
+        src: "https://www.instagram.com/karen_ahr1",
     },
     {
         id: 5,
         logo: < PiWhatsappLogoThin size={30} strokeWidth={1} />,
-        src: "#https://api.whatsapp.com/send?phone=573126668300&text=Hola%20Karen%20vi%20tu%20portafolio,%20y%20me%20interesa%20hablar%20contigo...",
+        src: "https://api.whatsapp.com/send?phone=573126668300&text=Hola%20Karen%20vi%20tu%20portafolio,%20y%20me%20interesa%20hablar%20contigo...",
     },
     {
         id: 6,
         logo: < FaHackerrank size={30} strokeWidth={1} />,
-        src: "#https://www.hackerrank.com/profile/karenulcuelargo",
+        src: "https://www.hackerrank.com/profile/karenulcuelargo",
     },
     
 ];
@@ -70,7 +70,7 @@ export const itemsNavbar = [
 export const boxAboutMe = [
     {   id:1,
         logo:<BiSolidUser size={50} color="#ab0bf5" strokeWidth={2}/> ,
-        title: "Soy Karen",
+        title: "¿Qien soy?",
         description: "Soy una desarrolldora Full stack de Java, apacionada por el desarrollo y el analisis de datos, el maketing digital, el prendimeinto y las soluciones creativas"
     },
     {   id:2,
@@ -184,14 +184,14 @@ export const dataPortfolio = [
         title: "To-Do Boostrap",
         image: "/to-do.jpg",
         urlGithub: "https://github.com/JessAhr/To-Do-boostrap!",
-        urlDemo: "#https://to-do-boostrap.netlify.app/",
+        urlDemo: "https://to-do-boostrap.netlify.app/",
     },
     {
         id: 2,
         title: "Poke API",
         image: "/poke-Api.jpg",
-        urlGithub: "#https://github.com/JessAhr/lab-Poke-api",
-        urlDemo: "#https://poke-api-karen.netlify.app/",
+        urlGithub: "https://github.com/JessAhr/lab-Poke-api",
+        urlDemo: "https://poke-api-karen.netlify.app/",
     },
     {
         id: 3,
