@@ -12,7 +12,7 @@ const ServicesPage = () => {
         <CircleImage/>
         <AvatarService/>
         <div className="grid items-center justify-center h-screen max-w-5xl 
-        gap-6 mx-auto md:grid-cols-2 md:px-20">
+        gap-6 mx-auto md:grid-cols-2 md:px-20 pt-24">
             <div className="max-w-[450px] mt-20 md:mt-0">
                 <h1 className="text-2xl  leading-tight text-center md:text-left md:text-4xl md:mb-5">
                     Mis {" "}
@@ -29,7 +29,7 @@ const ServicesPage = () => {
                         satisfacción del cliente con conocimiento de backend, no dudes en contactarme.
 
                     </p>
-                    <button className="px-3 py-2 rounded-lg bg-secondary hover:bg-pink-300"  >Contactame</button>
+                    <button className="items-center justify-center px-3 py-2 rounded-lg bg-secondary hover:bg-pink-300"  >Contactame</button>
               
             </div>
 

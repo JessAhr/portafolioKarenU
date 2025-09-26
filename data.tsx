@@ -171,7 +171,7 @@ export const serviceData = [
         description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
     },
     {
-        icono: <ChartNoAxesCombined />,
+        icon: <ChartNoAxesCombined/>,
         title: "Análisis de datos",
         description: "Transformo datos en insights accionables para apoyar la toma de decisiones estratégicas."
     },
@@ -195,46 +195,47 @@ export const dataPortfolio = [
     },
     {
         id: 3,
+        title: "E-commerce Ruta MTB",
+        image: "/image-8.jpg",
+        urlGithub: "https://github.com/samuellopur/ruta-mtb-front",
+        urlDemo: "https://master.d1madz5fpdj89j.amplifyapp.com/pages/index.html",
+    },
+    {
+        id: 4,
         title: "Estrategias Web",
         image: "/image-3.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
-        id: 4,
+        id: 5,
         title: "Ideas Creativas",
         image: "/image-4.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
-        id: 5,
+        id: 6,
         title: "Webs Impactantes",
         image: "/image-5.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
-        id: 6,
+        id: 7,
         title: "Web Dinámica",
         image: "/image-6.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
-        id: 7,
+        id: 8,
         title: "Dark Web ",
         image: "/image-7.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
     },
-    {
-        id: 8,
-        title: "E-commerce web",
-        image: "/image-8.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    }
+    
 ];
 
 export const dataTestimonials = [
